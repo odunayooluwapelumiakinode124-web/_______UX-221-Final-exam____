@@ -23,3 +23,4 @@
 [13-Apr-2026 21:25:25 UTC] PHP Fatal error:  Out of memory (allocated 31457280 bytes) (tried to allocate 2097152 bytes) in /workspaces/_______UX-221-Final-exam____/.wordpress/wp-includes/class-wp-admin-bar.php on line 231
 [13-Apr-2026 21:25:28 UTC] PHP Fatal error:  Out of memory (allocated 31457280 bytes) (tried to allocate 2097152 bytes) in /workspaces/_______UX-221-Final-exam____/.wordpress/wp-includes/class-wp-admin-bar.php on line 231
 [13-Apr-2026 21:25:32 UTC] PHP Fatal error:  Out of memory (allocated 31457280 bytes) (tried to allocate 2097152 bytes) in /workspaces/_______UX-221-Final-exam____/.wordpress/wp-includes/class-wp-admin-bar.php on line 659
+[13-Apr-2026 22:13:11 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/_______UX-221-Final-exam____/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
