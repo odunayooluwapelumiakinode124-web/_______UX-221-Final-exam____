@@ -1,0 +1,58 @@
+/*
+Theme Name:     Child_theme_family times
+Description:    
+Author:         odunayooluwapelumiakinode124-web
+Template:       twentytwentyfive
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+/* Import fonts - works in web, embedded in PDF for press */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Syne:wght@700&display=swap');
+
+
+:root {
+  --plum: #6B3FA0;
+  --mint: #9EF8E1; 
+  --coral: #FF6B6B;
+  --ink: #1A1423;
+  --cloud: #F7F4F1;
+}
+
+/* Base styles for screen + print */
+body {
+  font-family: 'Space Grotesk', Arial, sans-serif; /* fallback for press */
+  background: var(--cloud);
+  color: var(--ink);
+  line-height: 1.6;
+  font-size: 12pt; /* better for print */
+}
+
+h1, h2, h3 {
+  font-family: 'Syne', Georgia, serif; /* fallback for press */
+  color: var(--plum);
+  page-break-after: avoid; /* keeps headings with content in print */
+}
+
+a {
+  color: var(--coral);
+  text-decoration: none;
+}
+
+/* Print-specific tweaks */
+@media print {
+  body {
+    background: #FFFFFF; /* no bg colors for press */
+    color: #000000;
+  }
+  
+  a {
+    color: #000000;
+    text-decoration: underline;
+  }
+  
+  button {
+    border: 1px solid #000000;
+    background: none;
+    color: #000000;
+  }
+}
