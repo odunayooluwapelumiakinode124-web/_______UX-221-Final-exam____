@@ -37,6 +37,71 @@
     </url>
     <url>
         <loc>
+            http://localhost:8000/products/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/registration/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/login/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/my-account/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/lost-password/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/sign-up/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/home/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/posts/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/beginners-watercolor-oasis-kit/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/home-garden-herb-starter/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/artisanal-candle-making-set/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/mindful-embroidery-workshop/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/diy-ceramic-pottery-kit/
+        </loc>
+    </url>
+    <url>
+        <loc>
             http://localhost:8000/category/uncategorized/
         </loc>
     </url>
